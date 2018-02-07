@@ -12,6 +12,7 @@ System.Security.Cryptography.CryptographicException: 'Specified padding mode is 
 */
 
 var enCrypto = Encyrpt("AllenLi", "qwefdssdf");
+enCrypto.Dump();
 var deCrypto = lDecyrpt(enCrypto, "qwefdssdf");
 
 System.Console.WriteLine(deCrypto);
